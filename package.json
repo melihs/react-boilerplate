@@ -1,0 +1,12 @@
+{
+  "name": "react-boilerplate",
+  "author": "melih şahin",
+  "email": "melihsahin24@gmail.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "daisyui": "^2.31.0"
+  }
+}

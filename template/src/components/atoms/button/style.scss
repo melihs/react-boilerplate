@@ -1,0 +1,112 @@
+// backgrounds
+$default: #e2e3e5;
+$hover-default: #c0c0c0;
+
+$primary: #3E55C4;
+$hover-primary: #31439e;
+
+$danger: #D01D4E;
+$hover-danger: #b21940;
+
+$warning: #FFDC7C;
+$hover-warning: #e3c36f;
+
+$success: #3FC387;
+$hover-success: #309265;
+
+$info: #3488CD;
+$hover-info: #2c75ae;
+
+// text colors
+$color-warning: #564A2B;
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 30px;
+  margin: 30px;
+  color: white;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-default {
+  color: black;
+  background-color: $default;
+
+  &:hover {
+    background-color: $hover-default;
+  }
+
+  &:active {
+    background-color: $default;
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+
+  &:hover {
+    background-color: $hover-primary;
+  }
+
+  &:active {
+    background-color: $primary;
+  }
+}
+
+.btn-danger {
+  background-color: $danger;
+
+  &:hover {
+    background-color: $hover-danger;
+  }
+
+  &:active {
+    background-color: $danger;
+  }
+}
+
+.btn-warning {
+  color: $color-warning;
+  background-color: $warning;
+
+  &:hover {
+    background-color: $hover-warning;
+  }
+
+  &:active {
+    background-color: $warning;
+  }
+}
+
+.btn-success {
+  background-color: $success;
+
+  &:hover {
+    background-color: $hover-success;
+  }
+
+  &:active {
+    background-color: $success;
+  }
+}
+
+.btn-info {
+  background-color: $info;
+
+  &:hover {
+    background-color: $hover-info;
+  }
+
+  &:active {
+    background-color: $info;
+  }
+}
+
