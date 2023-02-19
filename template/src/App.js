@@ -1,7 +1,6 @@
-/* eslint-disable */
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+
 import NotFound from "./components/pages/notFound/NotFound";
 import Dashboard from "./components/pages/dashboard/Dashboard";
 

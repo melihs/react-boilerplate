@@ -20,7 +20,6 @@ $ npx create-react-app <project-name> --template file:react-boilerplate
 - react-popper-tooltip
 - react-router-dom
 - node-sass
-- tw-elements
 - daisy ui
 - fullcalendar
 - axios
@@ -32,3 +31,4 @@ $ npx create-react-app <project-name> --template file:react-boilerplate
 - storybook
 - tailwindcss
 - prop-types
+- react-helmet-async

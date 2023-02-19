@@ -1,18 +1,16 @@
-import React from "react";
-import { string } from "prop-types";
-
+import { DashboardContext } from "./DashboardContext";
 import TDashboard from "../../templates/dashboard/Dashboard";
 
-const Dashboard = ({ className = "" }) => {
+const Dashboard = () => {
+  const contextData = {};
+
   return (
-    <div className={`mobile:w-full tablet:w-full ${className}`}>
-      <TDashboard />
-    </div>
+    <DashboardContext.Provider value={contextData}>
+      <div className="w-full">
+        <TDashboard/>
+      </div>
+    </DashboardContext.Provider>
   );
 };
 
 export default Dashboard;
-
-Dashboard.propTypes = {
-  className: string
-};

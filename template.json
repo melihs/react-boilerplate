@@ -40,7 +40,6 @@
       "react-router-dom": "6",
       "react-scripts": "5.0.1",
       "storybook-addon-state": "^1.0.3",
-      "tw-elements": "^1.0.0-alpha12",
       "web-vitals": "^2.1.4",
       "yup": "^0.32.11",
       "daisyui": "^2.31.0",
