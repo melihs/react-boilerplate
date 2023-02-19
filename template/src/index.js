@@ -1,5 +1,4 @@
 import React from "react";
-import "tw-elements";
 import ReactDOM from "react-dom/client";
 import { CookiesProvider } from "react-cookie";
 import { BrowserRouter } from "react-router-dom";

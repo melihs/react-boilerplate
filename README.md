@@ -3,8 +3,8 @@
 ### React Boilerplate
 
 ``` bash
-$ git clone https://github.com/melihs/react-boilerplate.git
-$ npx create-react-app <project-name> --template file:react-boilerplate
+git clone https://github.com/melihs/react-boilerplate.git
+npx create-react-app <project-name> --template file:react-boilerplate
 ```
 
 ### Libs:

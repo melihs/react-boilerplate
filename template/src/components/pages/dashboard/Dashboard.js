@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <DashboardContext.Provider value={contextData}>
       <div className="w-full">
-        <TDashboard/>
+        <TDashboard />
       </div>
     </DashboardContext.Provider>
   );
