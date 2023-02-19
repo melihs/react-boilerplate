@@ -10,6 +10,7 @@ $ npx create-react-app <project-name> --template file:react-boilerplate
 ### Libs:
 
 - react
+- react-query
 - lodash
 - react-chartjs-2
 - chart.js
@@ -20,6 +21,7 @@ $ npx create-react-app <project-name> --template file:react-boilerplate
 - react-router-dom
 - node-sass
 - tw-elements
+- daisy ui
 - fullcalendar
 - axios
 - formik

@@ -7,6 +7,5 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "daisyui": "^2.31.0"
   }
 }

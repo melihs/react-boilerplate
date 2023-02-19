@@ -42,7 +42,9 @@
       "storybook-addon-state": "^1.0.3",
       "tw-elements": "^1.0.0-alpha12",
       "web-vitals": "^2.1.4",
-      "yup": "^0.32.11"
+      "yup": "^0.32.11",
+      "daisyui": "^2.31.0",
+      "react-query": "^3.39.3"
     },
     "eslintConfig": {
       "extends": [
