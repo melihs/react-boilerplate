@@ -1,6 +1,7 @@
 {
   "notFound": {
     "title": "Sayfa bulunamadı.",
+    "back_to_home_page": "Ana sayfaya geri dön",
     "description": "Üzgünüz, aradığınız sayfa mevcut değil.Aşağıdaki butonu kullanarak ana sayfaya dönebilirsiniz."
   }
 }

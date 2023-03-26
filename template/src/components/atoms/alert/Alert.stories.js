@@ -5,7 +5,7 @@ export default {
   component: Alert,
   argTypes: {
     children: {
-      description: "Bileşen içeriğini belirler."
+      description: "Component units are determined."
     },
     variant: {
       control: {
@@ -13,8 +13,7 @@ export default {
         options: ["info", "success", "danger", "warning"]
       },
       description:
-        "Bileşenin, arka plan rengi tanımlı değerleri belirler: <strong>info</strong> ,<strong>success</strong>," +
-        " <strong>danger</strong>, <strong>warning</strong>"
+        `Determines the component's background color defined values: <strong>info</strong> ,<strong>success</strong>, <strong>danger</strong>, <strong>warning</strong>`
     }
   }
 };
